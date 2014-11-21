@@ -1,12 +1,15 @@
 <!doctype html>
-<html>
+<html ng-app="app">
 	<head>
-		<title>Wod</title>
+		<title>app</title>
+        <link rel="stylesheet" href="bundle.css" />
 	</head>
-	<body>
-		hello world
+	<body ng-controller="AppCtrl">
 
-		<script src="app.js"></script>
-		<script src="components/sidenav/sidenav.js"></script>
+        <div ui-view="nav"></div>
+        <div ui-view="main"></div>
+
+		<script src="bundle.js"></script>
+        <script src="templates.js"></script>
 	</body>
 </html>

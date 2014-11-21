@@ -1,10 +1,14 @@
 {
-  "name": "wod",
+  "name": "gunn",
   "version": "0.0.1",
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.10.2"
+    "angular": "^1.3.3",
+    "angular-ui-router": "^0.2.11",
+    "express": "^4.10.2",
+    "socket.io": "^1.2.0",
+    "socket.io-client": "^1.2.0"
   },
   "devDependencies": {
     "gulp": "^3.8.10",
@@ -19,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethanwelborn/wod.git"
+    "url": "https://github.com/ethanwelborn/gunn.git"
   },
   "author": "Ethan Welborn @welbornethan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ethanwelborn/wod/issues"
+    "url": "https://github.com/ethanwelborn/app/issues"
   },
-  "homepage": "https://github.com/ethanwelborn/wod"
+  "homepage": "https://github.com/ethanwelborn/app"
 }
