@@ -17,6 +17,7 @@ angular.module('app.zeus', [])
             },
             relay: function zeusHandle(event) {
                 socket.emit('from-zeus', event);
+                console.log('emitting some shiiiiiiit', event);
             }
         };
 

@@ -15,6 +15,7 @@ var appLess = [
 ];
 
 var appJs = [
+    'node_modules/underscore/underscore.js',
     'node_modules/socket.io-client/socket.io.js',
     'node_modules/angular/angular.js',
     'node_modules/angular-ui-router/release/angular-ui-router.js',

@@ -3,7 +3,8 @@ angular.module('app',
         'ui.router',
 		'app.zeus',
         'app.prometheus',
-        'app.hermes'
+        'app.hermes',
+        'utils'
 	]
 )
 
